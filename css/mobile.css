@@ -1,0 +1,632 @@
+/*
+    primeira parte mobile index.html
+    quem somos
+    contato
+
+    icones para menu mobile
+    open <i class="fa-solid fa-bars"></i>
+
+    close <i class="fa-solid fa-xmark"></i>
+    
+*/
+@media (max-width:1024px) {
+    .icons-and-text {
+        height: 300px;
+    }
+
+    .contact {
+        width: 310px;
+    }
+
+    .form-contato {
+        width: 300px;
+    }
+
+    .form-contato {
+        margin: 0 auto;
+        width: 280px;
+        height: 400px;
+    }
+
+    textarea {
+        margin: 0 auto;
+    }
+
+    .form-contato input {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    label {
+        text-align: start;
+        display: block;
+    }
+
+    #button {
+        width: 250px;
+    }
+}
+
+@media (min-width:768px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .contact {
+        border: 1px solid;
+        margin: 10px;
+        border: 2px solid rgb(172, 172, 172);
+        border-radius: 5px;
+        width: 50%;
+    }
+
+    .contact>form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .form-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contato {
+        width: 100%;
+    }
+
+    .contato>div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contato>div>input {
+        width: 100%;
+        margin: 0 auto;
+        height: 50px;
+        padding: 0 10px;
+        border: 1px solid #03035f;
+        border-radius: 5px;
+    }
+
+    .contato>div>label {
+        width: 100%;
+        text-align: start;
+        padding: 20px 0;
+        color: #03035f;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    p {
+        font-size: 12px;
+    }
+
+    .icons-and-text {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 50px 0;
+    }
+
+    .icons-text-1,
+    .icons-text-2,
+    .icons-text-3 {
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .icons-text-1 p,
+    .icons-text-2 p,
+    .icons-text-3 p {
+        text-align: center;
+    }
+
+    /*comments*/
+    .comments {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .comments-text {
+        height: 500px;
+    }
+
+    .img-rigth {
+        display: none;
+    }
+
+    /*fim comments*/
+
+    /*
+    segunda parte quem somos
+*/
+    .img-banner {
+        display: none;
+    }
+
+    .QuemSomos {
+        border: 10px solid;
+    }
+
+    .QuemSomos-text {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .icons-quem-somos>p {
+        padding: 5px 0;
+    }
+
+    .nossa-historia {
+        width: 100%;
+        height: auto;
+    }
+
+    .nossa-hostoria-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /*
+    fim da segunda parte quem somos
+*/
+    /*
+ terceira parte contato 
+*/
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .contact {
+        border: 1px solid;
+        margin: 10px;
+        border: 2px solid rgb(172, 172, 172);
+        border-radius: 5px;
+        width: 50%;
+    }
+
+    .contact>form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .form-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contato {
+
+        width: 100%;
+    }
+
+    .contato>div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .contato>div>input {
+        width: 100%;
+        margin: 0 auto;
+        height: 50px;
+        padding: 0 10px;
+        border: 1px solid #03035f;
+        border-radius: 5px;
+    }
+
+    .contato>div>label {
+        width: 100%;
+        text-align: start;
+        padding: 20px 0;
+        color: #03035f;
+    }
+
+
+    /*
+ fim da terceira parte contato
+*/
+}
+
+/*começo 739px*/
+@media (max-width:739px) {
+
+    .div-bodyhead-1,
+    .div-bodyhead-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .paragrafo-div-bodyhead-1,
+    .paragrafo-div-bodyhead-2 {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    /*
+        quem somos
+    */
+    .QuemSomos-text {
+        text-align: center;
+    }
+
+    .nossa-historia {
+        height: auto;
+    }
+
+    .nossa-hostoria-text {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /*
+        fim quem somos
+    */
+
+}
+
+/*fim 739px*/
+
+/*
+    começo 667 px
+*/
+
+@media (min-width:668px) {
+
+    .lista-menu-mobile,
+    #open-menu {
+        display: none;
+    }
+}
+
+@media (max-width:667px) {
+    .quemsomos {
+        margin-top: 100px;
+    }
+
+    .contato-body {
+        margin-top: 100px;
+    }
+
+    header {
+        height: 20vh;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .logo {
+        margin: 0 -250px;
+    }
+
+    .logo img {
+        padding: 10px 10px;
+        width: 150px;
+    }
+
+    .lista-menu {
+        display: none;
+    }
+
+    #open-menu {
+        position: absolute;
+        top: 0;
+        font-size: 30px;
+        left: 100%;
+        transform: translate(-100%);
+        padding: 30px 30px;
+        color: rgb(3, 3, 97);
+    }
+
+
+    .lista-menu-mobile {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100.5%;
+        height: 590%;
+        background-color: #fff;
+    }
+
+    .animationOpen {
+        animation: animation .3s forwards;
+    }
+
+
+    @keyframes animation {
+        to {
+            transform: translate(-100%);
+        }
+    }
+
+    /*abrir menu*/
+    .lista-menu-mobile ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+
+    .lista-menu-mobile ul li {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .lista-menu-mobile ul li a {
+        text-transform: uppercase;
+        color: rgb(3, 3, 97);
+        font-size: 20px;
+        border-bottom: 2px solid;
+    }
+
+    .icons-hidden {
+        position: absolute;
+        font-size: 30px;
+        left: 100%;
+        transform: translate(-100%);
+        padding: 30px 30px;
+        color: rgb(3, 3, 97);
+    }
+
+}
+
+/*fim 667px*/
+
+/*mobile 414px*/
+@media (max-width:414px) {
+    p {
+        font-size: 12px;
+    }
+
+    /*index*/
+    .logo {
+        margin: 0 -190px;
+    }
+
+    .icons-text-1 i,
+    .icons-text-2 i,
+    .icons-text-3 i {
+        font-size: 40px;
+    }
+
+    .paragrafo-div-bodyhead-1 {
+        width: 100%;
+        padding: auto;
+    }
+
+    .paragrafo-div-bodyhead-1 p {
+        width: 100%;
+    }
+
+    .paragrafo-div-bodyhead-1 h1 {
+        font-size: 26px;
+    }
+
+    .img-bodyhead-1 img {
+        width: 300px;
+    }
+
+    .paragrafo-div-bodyhead-2 {
+        width: 100%;
+        padding: auto;
+    }
+
+    .paragrafo-div-bodyhead-2 h1 {
+        font-size: 26px;
+    }
+
+    .img-bodyhead-2 img {
+        width: 300px;
+    }
+
+    .comments {
+        width: 100%;
+    }
+
+    .comments-img-perfil {
+        width: 100%;
+    }
+
+    #comments-text-titulo {
+        font-size: 20px;
+    }
+
+    .comments-img-perfil p {
+        text-align: center;
+        width: 200%;
+    }
+
+    /*fim index*/
+
+    /*quem somos*/
+    .QuemSomos-text h1 {
+        font-size: 35px;
+    }
+
+    .QuemSomos-text p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .icons-quem-somos i {
+        font-size: 40px;
+    }
+
+    .nossa-historia {
+        height: auto;
+    }
+
+    .nossa-hostoria-text p {
+        padding: 0 10px;
+        text-align: center;
+        width: 100%;
+        height: 200%;
+    }
+
+    /*fim quem somos*/
+    /*contato*/
+    .contact {
+        width: 350px;
+    }
+
+    .form-contato {
+        width: 350px;
+    }
+
+    .contact-title h1 {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    /*fim contato*/
+}
+
+/*fim mobile  414px*/
+
+@media (max-width:375px) {
+    .logo img {
+        margin: 0 20px;
+        width: 140px;
+    }
+
+    .nossa-historia {
+        height: auto;
+    }
+
+    .nossa-hostoria-text {
+        width: 100%;
+        height: 599px;
+    }
+
+    .nossa-hostoria-text p {
+        height: auto;
+        text-align: center;
+    }
+
+    /*contato*/
+    .contact {
+        width: 350px;
+    }
+
+    .form-contato {
+        width: 350px;
+    }
+
+    /*fim contato*/
+}
+
+@media(max-width:320px) {
+
+    /*
+        index
+    */
+    .logo img {
+        margin: 0 50px;
+        width: 140px;
+    }
+
+    .paragrafo-div-bodyhead-1,
+    .paragrafo-div-bodyhead-2 {
+        width: 140%;
+    }
+
+    .comments-img-perfil {
+        width: 140%;
+    }
+
+    .comments-img-perfil p {
+        width: 100%;
+    }
+
+    /*
+        fim index
+    */
+    /*
+        quem somos
+    */
+    .nossa-historia {
+        height: auto;
+    }
+
+    .nossa-hostoria-text {
+        width: 100%;
+        height: 599px;
+    }
+
+    .nossa-hostoria-text p {
+        height: auto;
+        text-align: center;
+    }
+
+    /*
+        fim quem somos
+    */
+    /*
+        contato
+    */
+    .contact {
+        width: 310px;
+    }
+
+    .form-contato {
+        width: 300px;
+    }
+
+    .form-contato {
+        height: 550px;
+    }
+
+    .textarea textarea {
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    .form-contato input {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    label {
+        text-align: center;
+        display: block;
+    }
+
+    #button {
+        width: 250px;
+    }
+
+    /*
+        fim contato
+    */
+}
+
+/* 
+    começo220px
+*/

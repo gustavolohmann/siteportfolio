@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contato</title>
+</head>
+
+<body class="contato-body">
+    <header>
+        <div class="logo">
+            <img src="../img/logo.jpg" alt="logo">
+        </div>
+        <div class="menu-mobile">
+            <i id="open-menu" class="fa-solid fa-bars"></i>
+        </div>
+        <nav class="lista-menu">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="QuemSomos.html">quem somos</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+        <nav class="lista-menu-mobile">
+            <div class="icons-hidden">
+                <i id="hiddenMenu" class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="QuemSomos.html">quem somos</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!--contato-->
+            <div class="contact-us">
+                <div class="contact-title">
+                    <h1>Contate-nos</h1>
+                    <div class="icons-contato">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact">
+                    <form action="">
+                        <div class="form-contato">
+                            <div class="contato">
+                                <div id="name">
+                                    <label for="name">Nome:</label>
+                                    <input type="text" name="name" placeholder="Nome...">
+                                </div>
+                                <div id="email">
+                                    <label for="email">Email:</label>
+                                    <input type="text" name="email" placeholder="Email...">
+                                </div>
+                                <div id="telefone">
+                                    <label for="fone">Telefone:</label>
+                                    <input type="text" name="fone" placeholder="Telefone...">
+                                </div>
+                                <div class="textarea">
+                                    <label for="mensagem">Mensagem:</label>
+                                    <textarea name="mensagem" id="textarea" cols="35" rows="5"
+                                        placeholder="Escreva sua mensagem..."></textarea>
+                                </div>
+                                <div class="btn-send">
+                                    <button id="button" name="button">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+<script src="../js/mobile.js"></script>
+
+</html>
